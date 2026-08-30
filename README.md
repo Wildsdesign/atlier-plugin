@@ -1,10 +1,13 @@
-# Atlier
+# Project Desk
 
 Public [Agent Plugins](https://agent-plugins.org) / Cursor plugin for the hosted Project Desk MCP.
 
-This repo is the marketplace bundle. The product lives at [atlier.ai](https://atlier.ai). Do not confuse it with the private `Wildsdesign/Atlier` application repo.
+This GitHub repo (`atlier-plugin`) is implementation plumbing. The marketplace name is `project-desk`. The product site is [atlier.ai](https://atlier.ai). Do not confuse this bundle with the private `Wildsdesign/Atlier` application repo.
 
-- MCP: `https://atlier.ai/mcp`
+- Publisher: Project Desk
+- Plugin: `project-desk`
+- MCP server: `projectdesk`
+- MCP URL: `https://atlier.ai/mcp`
 - Transport: streamable HTTP
 - Auth: OAuth 2.1 (no API keys in this plugin)
 - Connect guide: [atlier.ai/connect](https://atlier.ai/connect)
@@ -12,7 +15,7 @@ This repo is the marketplace bundle. The product lives at [atlier.ai](https://at
 
 ## Install
 
-Once listed, install **atlier** from the Cursor Marketplace (Customize → Plugins). Grok Bot uses that same catalog.
+Once listed, install **project-desk** from the Cursor Marketplace (Customize → Plugins). Grok Bot uses that same catalog.
 
 Until then, add the hosted connector directly:
 
