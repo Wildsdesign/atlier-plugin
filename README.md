@@ -8,7 +8,7 @@ This GitHub repo (`atlier-plugin`) is implementation plumbing. The marketplace n
 - Plugin: `project-desk`
 - MCP server: `projectdesk`
 - MCP URL: `https://atlier.ai/mcp`
-- Transport: streamable HTTP
+- Transport: streamable HTTP (declared as `"type": "http"` in `mcp.json`, the value Cursor and other hosts use for remote servers)
 - Auth: OAuth 2.1 (no API keys in this plugin)
 - Connect guide: [atlier.ai/connect](https://atlier.ai/connect)
 - Contract: [atlier.ai/contract](https://atlier.ai/contract)

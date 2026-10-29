@@ -1,6 +1,7 @@
 {
   "name": "project-desk",
-  "version": "1.0.0",
+  "displayName": "Project Desk",
+  "version": "1.0.1",
   "description": "Project Desk MCP for Atlier. Scan the live desk, file tickets, and keep queues truthful.",
   "author": {
     "name": "Project Desk"
@@ -8,5 +9,18 @@
   "homepage": "https://atlier.ai",
   "repository": "https://github.com/Wildsdesign/atlier-plugin",
   "license": "MIT",
-  "keywords": ["atlier", "project-desk", "mcp", "agents"]
+  "logo": "assets/logo.png",
+  "keywords": [
+    "atlier",
+    "project-desk",
+    "mcp",
+    "agents"
+  ],
+  "category": "integrations",
+  "tags": [
+    "project-management",
+    "agents",
+    "mcp"
+  ],
+  "mcpServers": "./mcp.json"
 }

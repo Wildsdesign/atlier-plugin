@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "project-desk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Project Desk MCP for Atlier. Scan the live desk, file tickets, and keep queues truthful.",
   "author": {
     "name": "Project Desk",
@@ -10,5 +10,10 @@
   "homepage": "https://atlier.ai",
   "repository": "https://github.com/Wildsdesign/atlier-plugin",
   "license": "MIT",
-  "keywords": ["atlier", "project-desk", "mcp", "agents"]
+  "keywords": [
+    "atlier",
+    "project-desk",
+    "mcp",
+    "agents"
+  ]
 }
